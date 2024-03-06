@@ -1,4 +1,4 @@
-package kh.mclass.jdbc.model;
+package kh.mclass.jdbc.model.controller;
 
 import java.io.IOException;
 import java.util.List;
