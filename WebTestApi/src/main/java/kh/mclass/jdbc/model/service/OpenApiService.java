@@ -181,9 +181,9 @@ public class OpenApiService {
 		Gson gson = new Gson();
 		Map<String, Object> map = new HashMap<String, Object>();
 		map = gson.fromJson(sb.toString(), map.getClass()); // gson을 쓰면 java 자료형으로 한번에 바뀜
-//		System.out.println(map.get("response"));
-//		System.out.println(map.get("item"));
-//		System.out.println((List)(map.get("item")));
+		System.out.println(map.get("response"));
+		System.out.println(map.get("item"));
+		System.out.println((List)(map.get("item")));
 		System.out.println(map.get("item"));
 		System.out.println(gson.toJson(map));
 
