@@ -36,6 +36,7 @@ public class OpenApiService {
 		// TODO
 	}
 
+	@SuppressWarnings("deprecation")
 	public List<OpenApiVo> getCtprvnRltmMesureDnsty() throws IOException { // ArpltnInforInqireSvc
 		List<OpenApiVo> volist = null;
 
